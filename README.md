@@ -639,7 +639,7 @@ export default class EvenAndOdd extends Component {
     this.state = {
       evenArray: [],
       oddArray: [],
-      userInput: ''
+      userInput: '',
     }
   }
 
