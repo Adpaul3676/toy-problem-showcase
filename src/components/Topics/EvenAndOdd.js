@@ -18,7 +18,7 @@ class EvenAndOdd extends Component {
     let evens = []
     let odds = []
     let newArr = userInput.split(`,`).map(x=>+x);
-    
+    console.log (newArr)
     for (let i = 0; i < newArr.length; i++) {
       if (newArr[i] % 2 === 0) {
         evens.push (newArr[i])
